@@ -1,0 +1,18 @@
+.header__about-link {
+  padding: 0 12px;
+  position: relative;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -9px;
+  }
+}

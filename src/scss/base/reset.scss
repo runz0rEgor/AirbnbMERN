@@ -1,0 +1,30 @@
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button,
+a {
+  font: inherit;
+  outline: none;
+  border: none;
+}

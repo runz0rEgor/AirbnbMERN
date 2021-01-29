@@ -1,0 +1,11 @@
+body {
+  font-family: $FONT_FAMILY;
+  font-size: 17px;
+  background-color: $BACKGROUND_COLOR;
+}
+
+.container {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

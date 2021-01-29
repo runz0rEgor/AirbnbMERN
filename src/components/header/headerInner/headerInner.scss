@@ -1,0 +1,12 @@
+@import '../../../scss/abstracts/variables.scss';
+
+.header__inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__about {
+  color: $HEADER_LINKS_COLOR;
+}

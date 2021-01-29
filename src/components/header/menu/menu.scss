@@ -1,0 +1,42 @@
+@import './../../../scss/abstracts/variables.scss';
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-text {
+      font-size: 16px;
+      color: $HEADER_LINKS_COLOR;
+      font-weight: 600;
+      padding-right: 25px;
+      cursor: pointer;
+    }
+  }
+}
+
+.menu__links-btn {
+  color: #fff;
+  background: inherit;
+  border: none;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+.menu__burger {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 12px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 21px;
+  margin-left: 25px;
+  color: $FORM_BOTTOM_LINKS_COLOR;
+  cursor: pointer;
+  &-btn {
+    margin-right: 10px;
+  }
+}

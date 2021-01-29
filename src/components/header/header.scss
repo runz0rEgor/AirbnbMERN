@@ -1,0 +1,10 @@
+@import "../../scss/abstracts/variables.scss";
+
+.header {
+  min-height: 90vh;
+  padding: 20px 0;
+  background-image: url("../../img/header-bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

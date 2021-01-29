@@ -1,0 +1,10 @@
+@import '../../../scss/abstracts/variables.scss';
+
+.header__title {
+  max-width: 250px;
+  padding-top: 146px;
+  color: $HEADER_LINKS_COLOR;
+  .title {
+    font-size: 55px;
+  }
+}

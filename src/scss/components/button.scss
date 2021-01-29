@@ -1,0 +1,14 @@
+@import '../../scss/abstracts/variables.scss';
+
+.button {
+  padding: 7px 15px;
+  border-radius: 8px;
+  background-color: $BTN_BACKGROUND_COLOR;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-wrap {
+  margin-top: 30px;
+}

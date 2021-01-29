@@ -1,0 +1,164 @@
+@import '../../scss/abstracts/variables.scss';
+
+.form {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.form__wrapper {
+  margin-top: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 32px;
+  color: $FORM_TOP_LINKS_COLOR;
+  display: flex;
+  flex: 1 1 0%;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15), 0px 3px 8px rgba(0, 0, 0, 0.1);
+  background-color: $FORM_BACKGROUND_COLOR;
+}
+
+.form__location {
+  flex: 1.5 0 0%;
+  position: relative;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+    transition: all linear 0.3s;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 35px;
+    background-color: #dddddd;
+  }
+}
+
+.form__label {
+  padding: 14px 32px;
+  &-title {
+    font-weight: 600;
+    font-size: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.04em;
+  }
+}
+
+.form__input {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  background-color: inherit;
+  
+}
+
+.form__time {
+  display: flex;
+  flex: 2 0 0%;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 35px;
+    background-color: #dddddd;
+  }
+}
+
+.form__guests {
+  position: relative;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+    transition: all linear 0.3s;
+  }
+}
+
+.icon-wrap {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #FF385C;
+  border-radius: 35px;
+  top: 8px;
+  right: 13px;
+  &:hover{
+    background-color: #ca2745;
+  }
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    width: 14px;
+    height: 14px;
+    // background-image: url('../../img/svg_img/header/header_loupe_big.svg');
+  }
+}
+
+.arrival-wrap {
+  flex: 1 0 0%;
+  padding: 14px 24px;
+  position: relative;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+    transition: all linear 0.3s;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 35px;
+    background-color: #dddddd;
+  }
+}
+
+.arrival-text {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+  line-height: 16px;
+}
+
+.arrival-text-shadow {
+  font-size: 14px;
+  line-height: 18px;
+  color: $FORM_BOTTOM_LINKS_COLOR;
+  margin-top: 4px;
+}
+
+.departure-wrap {
+  flex: 1 0 0%;
+  padding: 14px 24px;
+  &:hover {
+    background-color: #dddddd;
+    border-radius: 32px;
+    transition: all linear 0.3s;
+  }
+}
+
+.depatrude-text {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+  line-height: 16px;
+}
+
+.depatrude-text-shadow {
+  font-size: 14px;
+  line-height: 18px;
+  color: $FORM_BOTTOM_LINKS_COLOR;
+  margin-top: 4px;
+}
